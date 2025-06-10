@@ -1,0 +1,6 @@
+{
+  "name": "genai-healthcare",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\""
+  }
+}

@@ -1,0 +1,30 @@
+# Ignore node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# no API keys being used yet, so thats why pushed the .env file to github
+# .env
+# .env.local
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build output
+dist/
+build/
+
+# Ignore Vite cache
+.vite/
+
+# Ignore coverage reports
+coverage/
